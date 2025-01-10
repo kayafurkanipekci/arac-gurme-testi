@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Car, Trophy, ChevronLeft, ChevronRight } from 'lucide-react';
 import { questions } from './data/questions';
 

@@ -1,3 +1,28 @@
+import corollaFront from './corolla/front.png';
+import corollaSide from './corolla/side.png';
+import corollaBack from './corolla/back.png';
+import corollaInside from './corolla/inside.png';
+import civicFront from './civic/front.png';
+import civicSide from './civic/side.png';
+import civicBack from './civic/back.png';
+import civicInside from './civic/inside.png';
+import bmwFront from './bmw/front.png';
+import bmwSide from './bmw/side.png';
+import bmwBack from './bmw/back.png';
+import bmwInside from './bmw/inside.png';
+import passatFront from './passat/front.png';
+import passatSide from './passat/side.png';
+import passatBack from './passat/back.png';
+import passatInside from './passat/inside.png';
+import miniFront from './mini/front.png';
+import miniSide from './mini/side.png';
+import miniBack from './mini/back.png';
+import miniInside from './mini/inside.png';
+import clioFront from './clio/front.png';
+import clioSide from './clio/side.png';
+import clioBack from './clio/back.png';
+import clioInside from './clio/inside.png';
+
 export interface CarImage {
     url: string;
     alt: string;
@@ -27,19 +52,19 @@ export interface CarImage {
       id: 1,
       images: [
         {
-          url: "https://images.unsplash.com/photo-1632245889029-e406faaa34cd?auto=format&fit=crop&q=80&w=1200",
+          url: corollaFront,
           alt: "Toyota Corolla 2004 Front"
         },
         {
-          url: "https://images.unsplash.com/photo-1632245889132-e406faaa34cd?auto=format&fit=crop&q=80&w=1200",
+          url: corollaSide,
           alt: "Toyota Corolla 2004 Side"
         },
         {
-          url: "https://images.unsplash.com/photo-1632245889132-e406faaa34cd?auto=format&fit=crop&q=80&w=1200",
+          url: corollaBack,
           alt: "Toyota Corolla 2004 Back"
         },
         {
-          url: "https://images.unsplash.com/photo-1632245889132-e406faaa34cd?auto=format&fit=crop&q=80&w=1200",
+          url: corollaInside,
           alt: "Toyota Corolla 2004 Inside"
         }
       ],
@@ -99,19 +124,19 @@ export interface CarImage {
       id: 2,
       images: [
         {
-          url: "https://images.unsplash.com/photo-1619767886558-efdc259b6e09?auto=format&fit=crop&q=80&w=1200",
+          url: civicFront,
           alt: "Honda Civic Type R Front"
         },
         {
-          url: "https://images.unsplash.com/photo-1619767886489-37e1d8343175?auto=format&fit=crop&q=80&w=1200",
+          url: civicSide,
           alt: "Honda Civic Type R Side"
         },
         {
-          url: "https://images.unsplash.com/photo-1619767886489-37e1d8343175?auto=format&fit=crop&q=80&w=1200",
+          url: civicBack,
           alt: "Honda Civic Type R Back"
         },
         {
-          url: "https://images.unsplash.com/photo-1619767886489-37e1d8343175?auto=format&fit=crop&q=80&w=1200",
+          url: civicInside,
           alt: "Honda Civic Type R Inside"
         }
       ],
@@ -171,19 +196,19 @@ export interface CarImage {
       id: 3,
       images: [
         {
-          url: "https://images.unsplash.com/photo-1619767886558-efdc259b6e09?auto=format&fit=crop&q=80&w=1200",
+          url: bmwFront,
           alt: "BMW 318i Standart Front"
         },
         {
-          url: "https://images.unsplash.com/photo-1619767886489-37e1d8343175?auto=format&fit=crop&q=80&w=1200",
+          url: bmwSide,
           alt: "BMW 318i Standart Side"
         },
         {
-          url: "https://images.unsplash.com/photo-1619767886489-37e1d8343175?auto=format&fit=crop&q=80&w=1200",
+          url: bmwBack,
           alt: "BMW 318i Standart Back"
         },
         {
-          url: "https://images.unsplash.com/photo-1619767886489-37e1d8343175?auto=format&fit=crop&q=80&w=1200",
+          url: bmwInside,
           alt: "BMW 318i Standart Inside"
         }
       ],
@@ -219,8 +244,8 @@ export interface CarImage {
         {
           type: "package",
           question: "Bu araç hangi pakettir?",
-          options: ["Sport", "Type S", "Type R", "Mugen"],
-          correctAnswer: "Type R",
+          options: ["Joy", "Standart", "M", "M Sport"],
+          correctAnswer: "Standart",
           points: 7
         },
         {
@@ -243,19 +268,19 @@ export interface CarImage {
       id: 4,
       images: [
         {
-          url: "https://images.unsplash.com/photo-1619767886558-efdc259b6e09?auto=format&fit=crop&q=80&w=1200",
+          url: passatFront,
           alt: "Volkswagen Passat Front"
         },
         {
-          url: "https://images.unsplash.com/photo-1619767886489-37e1d8343175?auto=format&fit=crop&q=80&w=1200",
+          url: passatSide,
           alt: "Volkswagen Passat Side"
         },
         {
-          url: "https://images.unsplash.com/photo-1619767886489-37e1d8343175?auto=format&fit=crop&q=80&w=1200",
+          url: passatBack,
           alt: "Volkswagen Passat  Back"
         },
         {
-          url: "https://images.unsplash.com/photo-1619767886489-37e1d8343175?auto=format&fit=crop&q=80&w=1200",
+          url: passatInside,
           alt: "Volkswagen Passat  Inside"
         }
       ],
@@ -315,19 +340,19 @@ export interface CarImage {
       id: 5,
       images: [
         {
-          url: "https://images.unsplash.com/photo-1619767886558-efdc259b6e09?auto=format&fit=crop&q=80&w=1200",
+          url: miniFront,
           alt: "Mini John Cooper Front"
         },
         {
-          url: "https://images.unsplash.com/photo-1619767886489-37e1d8343175?auto=format&fit=crop&q=80&w=1200",
+          url: miniSide,
           alt: "Mini John Cooper Side"
         },
         {
-          url: "https://images.unsplash.com/photo-1619767886489-37e1d8343175?auto=format&fit=crop&q=80&w=1200",
+          url: miniBack,
           alt: "Mini John Cooper Back"
         },
         {
-          url: "https://images.unsplash.com/photo-1619767886489-37e1d8343175?auto=format&fit=crop&q=80&w=1200",
+          url: miniInside,
           alt: "Mini John Cooper Inside"
         }
       ],
@@ -387,19 +412,19 @@ export interface CarImage {
       id: 6,
       images: [
         {
-          url: "https://images.unsplash.com/photo-1619767886558-efdc259b6e09?auto=format&fit=crop&q=80&w=1200",
+          url: clioFront,
           alt: "Renault Clio Front"
         },
         {
-          url: "https://images.unsplash.com/photo-1619767886489-37e1d8343175?auto=format&fit=crop&q=80&w=1200",
+          url: clioSide,
           alt: "Renault Clio Side"
         },
         {
-          url: "https://images.unsplash.com/photo-1619767886489-37e1d8343175?auto=format&fit=crop&q=80&w=1200",
+          url: clioBack,
           alt: "Renault Clio Back"
         },
         {
-          url: "https://images.unsplash.com/photo-1619767886489-37e1d8343175?auto=format&fit=crop&q=80&w=1200",
+          url: clioInside,
           alt: "Renault Clio Inside"
         }
       ],
