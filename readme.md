@@ -1,3 +1,9 @@
+## Ekran Görüntüleri / Screenshots
+
+https://github.com/kayafurkanipekci/arac-gurme-testi/blob/main/screenshots/1.png
+https://github.com/kayafurkanipekci/arac-gurme-testi/blob/main/screenshots/2.png
+https://github.com/kayafurkanipekci/arac-gurme-testi/blob/main/screenshots/3.png
+
 [TR]
 
 # Araba Gurmesi Testi
@@ -40,10 +46,6 @@ Eğer uygulamayla ilgili herhangi bir sorunuz veya öneriniz varsa, lütfen kaya
 
 * [GitHub Pages](https://github.com/kayafurkanipekci/araba-gurmesi-testi)
 * [GitHub Repository](https://github.com/kayafurkanipekci/araba-gurmesi-testi)
-
-## Ekran Görüntüleri
-
-[Ekran görüntülerini ekleyin]
 
 ## *Önemli Notlar*
 
@@ -99,10 +101,6 @@ If you have any questions or suggestions about the application, please send an e
 
 * [GitHub Pages](https://github.com/kayafurkanipekci/araba-gurmesi-testi)
 * [GitHub Repository](https://github.com/kayafurkanipekci/araba-gurmesi-testi)
-
-## Screenshots
-
-[Insert screenshots]
 
 ## *Important Notes*
 
