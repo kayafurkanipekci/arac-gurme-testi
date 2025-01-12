@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Car, Trophy, ChevronLeft, ChevronRight } from 'lucide-react';
-import { questions } from './data/questions';
+import { questions } from './data/questions.ts';
 
 function App() {
   const [currentCar, setCurrentCar] = useState(0);
